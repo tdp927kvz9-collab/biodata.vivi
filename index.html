@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Biodata - Andi Vivi Adriani Putri</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f8f0e3;
+            color: #333;
+            line-height: 1.6;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 20px auto;
+            background-color: #fff;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .header {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+
+        .profile-image {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            object-fit: cover;
+            margin-bottom: 15px;
+        }
+
+        h1 {
+            font-size: 2.2em;
+            margin-bottom: 5px;
+            color: #5d4037;
+        }
+
+        h2 {
+            font-size: 1.1em;
+            color: #795548;
+            font-weight: normal;
+        }
+
+        .section {
+            margin-bottom: 25px;
+        }
+
+        .section-title {
+            font-size: 1.4em;
+            color: #5d4037;
+            margin-bottom: 15px;
+            border-bottom: 2px solid #a1887f;
+            padding-bottom: 5px;
+        }
+
+        /* Data pribadi */
+        .data-list {
+            display: grid;
+            grid-template-columns: 170px auto;
+            gap: 8px 5px;
+        }
+
+        .data-list dt {
+            font-weight: bold;
+            color: #795548;
+        }
+
+        /* Pendidikan */
+        .education-list {
+            display: grid;
+            grid-template-columns: 1fr 2fr;
+            gap: 8px;
+            list-style: none;
+            padding: 0;
+        }
+
+        .education-list li::before {
+            content: "• ";
+            color: #5d4037;
+            margin-left: -1em;
+            display: inline-block;
+            width: 1em;
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="header">
+            <img src="vivi.jpeg" alt="Foto Andi Vivi" class="profile-image">
+            <h1>ANDI VIVI ADRIANI PUTRI</h1>
+            <h2>Ilmu Komputer</h2>
+        </div>
+
+        <!-- Data Pribadi -->
+        <section class="section">
+            <h2 class="section-title">Data Pribadi</h2>
+
+            <dl class="data-list">
+                <dt>Nama</dt>
+                <dd>: Andi Vivi Adriani Putri</dd>
+                <dt>Tanggal Lahir</dt>
+                <dd>: 06-05-2007</dd>
+                <dt>Jenis Kelamin</dt>
+                <dd>: Perempuan</dd>
+                <dt>Agama</dt>
+                <dd>: Islam</dd>
+                <dt>Kewarganegaraan</dt>
+                <dd>: Indonesia</dd>
+                <dt>Status</dt>
+                <dd>: Belum Menikah</dd>
+                <dt>Alamat</dt>
+                <dd>: Perumnas Lalombaa</dd>
+                <dt>Nomor Telepon</dt>
+                <dd>: 085825004757</dd>
+                <dt>Email</dt>
+                <dd>: andiviviadrianiputri@gmail.com</dd>
+                <dt>Media Sosial</dt>
+                <dd>: @crofflies1__</dd>
+            </dl>
+        </section>
+
+        <!-- Pendidikan -->
+        <section class="section">
+            <h2 class="section-title">Pendidikan</h2>
+            <ul class="education-list">
+                <li>2012–2018</li>
+                <li>SDN 1 Lamokato</li>
+                <li>2019–2021</li>
+                <li>MTSN 1 Kolaka</li>
+                <li>2021–2024</li>
+                <li>SMAN 1 Kolaka</li>
+                <li>2025–Sekarang</li>
+                <li>Universitas 19 November</li>
+            </ul>
+        </section>
+
+        <!-- Hobi -->
+        <section class="section">
+            <h2 class="section-title">Hobi</h2>
+            <ul>
+                <li>Membaca Novel</li>
+                <li>Menulis</li>
+                <li>Badminton</li>
+            </ul>
+        </section>
+    </div>
+
+</body>
+
+</html>
